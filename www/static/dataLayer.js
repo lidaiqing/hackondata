@@ -132,8 +132,7 @@ var DataLayer = (function () {
             if (_this.getMap().hasOwnProperty('closeAllInfoWindows')) {
               _this.getMap().closeAllInfoWindows();
             }
-
-            //_this.infoWindow.setContent(_this.genContent(marker.feature));
+            _this.infoWindow.setContent(_this.genContent(marker.feature));
             _this.infoWindow.open(_this.getMap(), marker);
             _this.infoWindow.marker = marker;
           };

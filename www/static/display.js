@@ -33,6 +33,16 @@ function mapInit() {
     "attraction",
     "/api/0.1/attraction"
   );
+  attraction.genContent = function(feature) {
+    description =
+      '<div id="description">' +
+      ' id: ' + feature.getProperty('id') + '<br>' +
+      ' Name: ' + feature.getProperty('name') + '<br>' +
+      ' Full Address: ' + feature.getProperty('full_address') + '<br>' +
+      ' Ownership: ' +  feature.getProperty('ownership') + '<br>' +
+      '</div>';
+    return description;
+  };
   attraction.setMap(map);
   infowindows.push(infowindow);
   infowindows.push(attraction.infoWindow);
