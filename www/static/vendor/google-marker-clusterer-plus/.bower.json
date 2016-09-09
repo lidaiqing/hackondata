@@ -1,0 +1,32 @@
+{
+  "name": "google-marker-clusterer-plus",
+  "version": "2.1.2",
+  "description": "Exact clone of http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/",
+  "keywords": [
+    "google-marker-clusterer-plus",
+    "google",
+    "maps",
+    "cluster",
+    "clusterer",
+    "map"
+  ],
+  "homepage": "https://github.com/dkingman/MarkerClustererPlus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkingman/MarkerClustererPlus"
+  },
+  "main": "src/markerclusterer.js",
+  "ignore": [
+    "docs/*",
+    "README.md"
+  ],
+  "_release": "2.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.1.2",
+    "commit": "13f723533a2f2a14187f2bb44be14043da33c001"
+  },
+  "_source": "https://github.com/dkingman/MarkerClustererPlus.git",
+  "_target": "~2.1.2",
+  "_originalSource": "google-marker-clusterer-plus"
+}
